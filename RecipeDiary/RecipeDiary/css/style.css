@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
 }
@@ -6,7 +12,7 @@ img {
     max-width: 100%;
 }
 
-.mv img {
+#mv img {
     width: 1200px;
     height: 600px;
     object-fit: cover;
@@ -24,6 +30,7 @@ a {
 
 h1 {
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -41,6 +48,7 @@ ul {
     width: 100vw;
     height: 500px;
     object-fit: cover;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -69,7 +77,9 @@ ul {
 }
 .sns li {
     margin: 0 10px;
+    margin-bottom: 20px;
 }
 .copy {
     margin: 0 10px;
+    margin-bottom: 10px;
 }
