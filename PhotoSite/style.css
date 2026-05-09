@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+    background-color: #F4F9FF;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header img {
+    width: 160px;
+    margin-top: 60px;
+}
+
+/* MV */
+.MV img {
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+/* index */
+.index {
+    background-color: #FFFFFF;
+    padding-top: 35px;
+    padding-bottom: 33px;
+    margin-bottom: 65px;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-left: 200px;
+    margin-bottom: 17px;
+}
+
+.index-list {
+    margin-left: 200px;
+    font-size: 14px;
+}
+
+.index-list li {
+    margin-bottom: 26px;
+}
+
+.index-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* detail */
+.detail {
+    margin-bottom: 118px;
+}
+
+.detail-content {
+    display: flex;
+}
+
+.detail-img {
+    width: 270px;
+    margin-right: 60px;
+    margin-left: 200px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+dl {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding: 16px 0;
+    margin-bottom: 25px;
+    margin-bottom: 48px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+
+a {
+    font-size: 14px;
+}
+
+/* フッター */
+footer p {
+    font-size: 10px;
+    margin-left: 340px;
+    margin-bottom: 17px;
+}
