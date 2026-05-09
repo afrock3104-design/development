@@ -15,8 +15,6 @@ img {
 /* ヘッダー */
 .site-title img {
     width: 120px;
-    height: 40px;
-    padding: 10px 0;
 }
 
 .header {
@@ -26,22 +24,19 @@ img {
     margin: 0 auto;
     text-align: center;
     max-width: 807px;
+    padding: 10px 0;
 }
 
 .header ul {
     font-size: 14.4px;
     list-style: none;
     display: flex;   
+    gap: 30px;
 }
 
-li {
-    margin-left: 30px;
-}
 
 /* メインビジュアル */
-.MV {
-    margin-top: 10px;
-}
+
 
 .MV img {
     width: 100%;
@@ -56,10 +51,12 @@ li {
 }
 
 .section-title {
-    display: inline-block;
     font-size: 32px;
-    border-bottom: solid 1px #383e45;
     text-align: center;
+}
+
+.section-title span {
+    border-bottom: solid 1px #383e45;
 }
 
 .content {
@@ -93,6 +90,7 @@ li {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 h3 {
@@ -115,7 +113,17 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .flex {
-    display: block;
+
+  .about .content {
+    flex-direction: column;
   }
+
+  .bicycle ul  {
+    display: block;
 }
+
+  .bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  }
