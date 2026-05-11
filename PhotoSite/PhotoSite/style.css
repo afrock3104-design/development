@@ -139,13 +139,11 @@ footer p {
    }
 
    .detail-content {
-        display: block
+        flex-direction: column;
    }
 
-   .detail-img {
-        width: 295px;
-        height: 295px;
-}
+
+  
 
 
 
