@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+    background-color: #F4F9FF;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header img {
+    width: 160px;
+    margin-top: 60px;
+}
+
+/* MV */
+.MV img {
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+/* index */
+.index {
+    background-color: #FFFFFF;
+    margin-bottom: 65px;
+    padding: 35px 200px 33px;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+.index-list {
+    font-size: 14px;
+}
+
+.index-list li {
+    list-style: none;
+    margin-bottom: 26px;
+}
+
+.index-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* detail */
+.detail {
+    margin: 0 auto 118px;
+    width: 600px;
+}
+
+.detail-content {
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+}
+
+.detail-content .text{
+    width: 270px;
+}
+
+.detail-img {
+    width: 270px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+dl {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding: 16px 0;
+    margin-bottom: 25px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+dt {
+  width: 25%;
+}
+
+dd {
+  width: 75%;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 14px;
+    color: #333;
+}
+a:hover {
+    opacity: 0.8;
+}
+
+/* フッター */
+
+footer {
+    margin: 0 auto 17px;
+    width: 600px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+/* SP */
+@media screen and (max-width: 1024px) {
+
+    header {
+        padding: 0 10px;
+    }
+    
+    .MV {
+        padding: 0 10px;
+    }
+
+   .index {
+        padding: 0 40px;
+   }
+
+   .detail-content {
+        display: block
+   }
+
+   .detail-img {
+        width: 295px;
+        height: 295px;
+}
+
+
+
+}
