@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 img {
@@ -14,45 +14,52 @@ img {
 }
 
 .main-title {
-    display: block;
-    font-weight: normal;
-    font-size: 36px;
-    letter-spacing: 10.8px;
-    margin-bottom: 21px;
+  display: block;
+  font-weight: normal;
+  font-size: 36px;
+  letter-spacing: 10.8px;
+  margin-bottom: 21px;
 }
 
 .sub-title {
-    display: block;
-    font-weight: normal;
-    font-size: 14px; 
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .sub-title::after {
-    content: "";
-    width: 40px;
-    height: 1px;
-    background-color: #000;
-    display: block;
+  content: '';
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 /* header */
 header {
-    height: 80px;
-    display: flex;
-    align-items: center;
+  height: 80px;
+  display: flex;
+  align-items: center;
 }
 
-.logo {
-    width: 100.39px;
-    margin-left: 91px;
-    margin-right: 59.61px;
+.header .logo  {
+  width: 100.39px;
+  margin-left: 91px;
+  margin-right: 59.61px;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    font-size: 14px;
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 14px;
 }
 
 .contact {
@@ -63,14 +70,14 @@ ul {
   color: #fff;
   font-size: 12px;
   display: lock;
-  text-align: center; 
+  text-align: center;
   margin-left: auto;
 }
 
 /* MV */
 
 .mv {
-    width: 100%;
+  width: 100%;
 }
 
 .mv img {
@@ -82,7 +89,9 @@ ul {
 
 /* NEWS */
 .news {
-    margin-bottom: 133px;
+  max-width: 1000px;
+  padding: 0 40px;
+  margin: 0 auto 133px;
 }
 
 .news .sub-title::after {
@@ -103,18 +112,23 @@ ul {
 }
 
 .list {
-    display: flex;
-    gap: 100px;
+  list-style: none;
+  display: flex;
+  gap: 100px;
 }
 
 /* ABOUT*/
 .about {
-    margin-bottom: 134px;
+  max-width: 1400px;
+  margin: 0 auto 134px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .about .sub-title::after {
-    margin-top: 40px;
-    margin-bottom: 53px;
+  margin-top: 40px;
+  margin-bottom: 53px;
 }
 
 .about__img img {
@@ -123,14 +137,44 @@ ul {
   object-fit: cover;
 }
 
+.about__text {
+  width: 473px;
+  margin: 190px 97px 0 0;
+}
+
 /* BUSINESS */
 .business {
-  margin-bottom: 120px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 16px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+
+.business__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.business__content .title {
+  margin-bottom: 13px;
+}
+
+.business__content .left {
+  margin-top: 100px;
 }
 
 .business .sub-title::after {
-    margin-top: 40px;
-    margin-bottom: 53px;
+  margin-top: 40px;
+  margin-bottom: 53px;
+}
+
+.item {
+  margin-bottom: 53px;
 }
 
 .item img {
@@ -141,36 +185,85 @@ ul {
 
 /* COMPANY */
 .company {
-  margin-bottom: 110px;
+  width: 100%;
+  max-width: 1000px;
+  height: 750px;
+  padding: 0 16px;
+  margin: 0 auto 110px;
+  position: relative;
 }
 
 .company .sub-title::after {
-    margin-top: 40px;
-    margin-bottom: 53px;
+  margin-top: 40px;
+  margin-bottom: 53px;
+}
+
+.company__content {
+  display: flex;
+}
+
+ .company__text {
+  width: 567px;
+  padding: 110px 29px 104px 62px;
+  background-color: #fff;
+  position: absolute; 
+
+  }
+
+.company li  {
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 35.2px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .company img {
   width: 547px;
   height: 400px;
+  margin-top: 110px;
+  margin-left: 453px;
   object-fit: cover;
+  position: absolute;
 }
 
 /* footer */
+.footer {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 22px;
+}
+
 .flex {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 0;
+}
+
+.flex .logo {
+  width: 100.39px;
+  margin-right: 0;
 }
 
 
+.info p {
+  font-size: 14px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
 
 
 
 
-
-
-
-
-
-@media screen and (max-width: 768px) {
 
   .header {
     flex-direction: column;
@@ -180,5 +273,4 @@ ul {
   .contact {
     display: none;
   }
-
-  }
+}
