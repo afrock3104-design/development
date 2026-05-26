@@ -202,13 +202,12 @@ header {
   display: flex;
 }
 
- .company__text {
+.company__text {
   width: 567px;
   padding: 110px 29px 104px 62px;
   background-color: #fff;
   position: absolute; 
-
-  }
+}
 
 .company li  {
   display: flex;
@@ -259,18 +258,95 @@ h3 {
   font-size: 12px;
 }
 
+/* SP */
 @media screen and (max-width: 900px) {
 
-
-
-
-
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .contact {
-    display: none;
-  }
+.logo {
+  width: 80.5px;
+  margin: 8px 0;
 }
+
+.section-title {
+  margin-bottom: 34px;
+}
+
+.sub-title {
+  margin-bottom: 24px;
+}
+  
+/* hedder */
+  .header {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.header .logo {
+  width: 80.5px;
+  margin: 16px 0 11.52px 16px;
+}
+
+.header ul {
+  margin-left: 16px;
+}
+
+.contact {
+  display: none;
+}
+
+/* mv */
+.mv img {
+  margin-top: 18px;
+  margin-bottom: 90px;
+}
+
+/* news */
+.news {
+  margin-bottom: 90px;
+  padding: 0 28px 0 16px;
+}
+
+.news .list {
+  flex-direction: column;
+  gap: 49px;
+}
+
+.news .list li {
+  width: 100%;
+} 
+
+.news p {
+  margin-top: 22px;
+}
+
+
+/* about */
+.about {
+  flex-direction: column;
+  margin-bottom: 0 0 94px 0;
+  gap: 0;
+}
+
+.about__img img {
+  width: 100%;
+  height: 300px;
+}
+
+.about__text {
+  width: 100%;
+  padding: 0 28px 016px;
+  margin: 0;
+}
+
+/* business */
+
+.business {
+  margin-bottom: 80px;
+}
+
+.business__content {
+  flex-direction: column;
+  padding: 0;
+}
+
+/* company */
