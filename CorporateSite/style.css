@@ -1,3 +1,218 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coporate</title>
+    <link rel="stylesheet" href="./destyle.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="logo"><img src="./img/logo.svg" /></h1>
+
+      <nav>
+        <ul>
+          <li>NEWS</li>
+          <li>ABOUT</li>
+          <li>BUSINESS</li>
+          <li>COMPANY</li>
+        </ul>
+      </nav>
+
+      <a class="contact">お問い合わせ</a>
+    </header>
+
+    <main>
+      <div class="mv">
+        <img src="./img/mainvisual.jpg" />
+      </div>
+
+      <!-- NEWS -->
+      <section class="news">
+        <h2 class="section-title">
+          <span class="main-title">NEWS</span>
+          <span class="sub-title">ニュース</span>
+        </h2>
+
+        <ul class="list">
+          <li>
+            <div class="date-area">
+              <time>2021.01.01</time>
+              <span>NEWS</span>
+              <p>タイトルタイトルタイトルタイトル</p>
+            </div>
+          </li>
+          <li>
+            <div class="date-area">
+              <time>2021.01.01</time>
+              <span>PRESS</span>
+              <p>タイトルタイトルタイトルタイトル</p>
+            </div>
+          </li>
+          <li>
+            <div class="date-area">
+              <time>2021.01.01</time>
+              <span>NEWS</span>
+              <p>タイトルタイトルタイトルタイトル</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about">
+        <div class="about__img">
+          <img src="./img/about.jpg" />
+        </div>
+
+        <div class="about__text">
+          <div class="about__inner">
+            <h2 class="section-title">
+              <span class="main-title">ABOUT</span>
+              <span class="sub-title">私たちについて</span>
+            </h2>
+            <p>
+              テキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキスト
+            </p>
+            <p>
+              テキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキスト
+            </p>
+            <p>
+              テキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- business -->
+      <section class="business">
+        <div class="business__inner">
+        <h2 class="section-title">
+          <span class="main-title">BUSINESS</span>
+          <span class="sub-title">事業内容</span>
+        </h2>
+
+        <div class="business__content">
+          <div class="left">
+            <div class="item">
+              <p class="title">Web制作・マーケティング</p>
+              <img src="./img/business1.jpg" />
+            </div>
+            <div class="item">
+              <p class="title">インターネットメディア事業</p>
+              <img src="./img/business2.jpg" />
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="item">
+              <p class="title">プロモーション企画・制作</p>
+              <img src="./img/business3.jpg" />
+            </div>
+
+            <div class="item">
+              <p class="title">ソーシャル企画・運営</p>
+              <img src="./img/business4.jpg" />
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- COMPANY -->
+      <section class="company">
+        <div class="company__inner">
+
+        <div class="company__content">
+
+        <div class="company__text">
+          <div class="company__text__inner">
+        <h2 class="section-title">
+          <span class="main-title">COMPANY</span>
+          <span class="sub-title">会社情報</span>
+        </h2>
+        
+        <ul class="info">
+          <li>
+            <h3>会社名</h3>
+            <p>ウェブエンターテイメントデザイン株式会社</p>
+          </li>
+          <li>
+            <h3>所在地</h3>
+            <p>東京都渋谷区桜丘町99-9 West Building 3F</p>
+          </li>
+          <li>
+            <h3>代表</h3>
+            <p>ＸＸＸＸＸＸ</p>
+          </li>
+          <li>
+            <h3>設立</h3>
+            <p>2021年1月1日</p>
+          </li>
+          <li>
+            <h3>資本金</h3>
+            <p>3,000,000円</p>
+          </li>
+          <li>
+            <h3>事業内容</h3>
+            <p>Web制作・マーケティング</p>
+          </li>
+         <li>
+            <h3>　　　　　</h3>
+            <p>インターネットメディア事業</p>
+          </li>  
+        <li>
+            <h3>　　　　　</h3>
+            <p>プロモーション企画・制作</p>
+          </li>  
+        <li>
+            <h3>　　　　　</h3>
+            <p>インターネットメディア事業</p>
+          </li>  
+        </ul>
+        </div>
+        </div>
+      
+        <div class="img">
+          <img src="./img/company.jpg" />
+        </div>
+
+        </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+      <div class="flex">
+        <h1 class="logo"><img src="./img/logo.svg" /></h1>
+        <div class="info">
+          <p>
+            Web Entertainment Design Inc.<br />
+            West Building 3F<br />
+            9-99 Sakuragaokacho Shibuya-ku<br />
+            Tokyo, Japan 150-0031
+          </p>
+          <p>T/99-9999-9999</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="copyright">&copy; Web Entertainment Design Inc.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
+Copy
+
+CSS
+
 * {
   margin: 0;
   padding: 0;
@@ -49,7 +264,7 @@ header {
   align-items: center;
 }
 
-.header .logo  {
+.header .logo {
   width: 100.39px;
   margin-left: 91px;
   margin-right: 59.61px;
@@ -131,9 +346,13 @@ header {
   margin-bottom: 53px;
 }
 
-.about__img img {
+.about__img {
   width: 760px;
   height: 400px;
+}
+
+.about__img img {
+  height: 100%;
   object-fit: cover;
 }
 
@@ -187,7 +406,7 @@ header {
 .company {
   width: 100%;
   max-width: 1000px;
-  height: 750px;
+  /* height: 750px; */
   padding: 0 16px;
   margin: 0 auto 110px;
   position: relative;
@@ -200,16 +419,17 @@ header {
 
 .company__content {
   display: flex;
+  align-items: center;
 }
 
 .company__text {
   width: 567px;
   padding: 110px 29px 104px 62px;
   background-color: #fff;
-  position: absolute; 
+  /* position: absolute;  */
 }
 
-.company li  {
+.company li {
   display: flex;
   font-size: 14px;
   font-weight: normal;
@@ -221,13 +441,18 @@ h3 {
   font-weight: normal;
 }
 
-.company img {
+.company .img {
   width: 547px;
   height: 400px;
-  margin-top: 110px;
-  margin-left: 453px;
+  margin-left: -123px;
+  /* margin-top: 110px;
+  margin-left: 453px; */
+  /* position: absolute; */
+}
+
+.company img {
+  height: 100%;
   object-fit: cover;
-  position: absolute;
 }
 
 /* footer */
@@ -249,6 +474,14 @@ h3 {
   margin-right: 0;
 }
 
+.info li {
+  display: flex;
+  gap: 29px;
+}
+
+.info h3 {
+  width: 56px;
+}
 
 .info p {
   font-size: 14px;
@@ -260,93 +493,135 @@ h3 {
 
 /* SP */
 @media screen and (max-width: 900px) {
+  .logo {
+    width: 80.5px;
+    margin: 8px 0;
+  }
 
-.logo {
-  width: 80.5px;
-  margin: 8px 0;
-}
+  .section-title {
+    margin-bottom: 34px;
+  }
 
-.section-title {
-  margin-bottom: 34px;
-}
+  .sub-title {
+    margin-bottom: 24px;
+  }
 
-.sub-title {
-  margin-bottom: 24px;
-}
-  
-/* hedder */
+  /* hedder */
   .header {
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 18px;
+  }
+
+  .header .logo {
+    width: 80.5px;
+    margin: 16px 0 11.52px 16px;
+  }
+
+  .header ul {
+    margin-left: 16px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  /* mv */
+  .mv img {
+    margin-top: 18px;
+    margin-bottom: 90px;
+  }
+
+  /* news */
+  .news {
+    margin-bottom: 90px;
+    padding: 0 28px 0 16px;
+  }
+
+  .news .list {
+    flex-direction: column;
+    gap: 49px;
+  }
+
+  .news .list li {
+    width: 100%;
+  }
+
+  .news p {
+    margin-top: 22px;
+  }
+
+  .item img {
+    width: 100%;
+  }
+
+  /* about */
+  .about {
+    flex-direction: column;
+    margin-bottom: 0 0 94px 0;
+    gap: 0;
+  }
+
+  .about__img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .about__text {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about__inner {
+    padding: 0 28px 016px;
+  }
+
+  /* business */
+
+  .business {
+    margin-bottom: 80px;
+    padding: 0;
+  }
+
+  .business__content {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .business__inner {
+    padding: 0 16px;
+  }
+
+  .company {
+    width: 100%;
+    padding: 0;
+  }
+
+  .company__inner {
+    padding: 0 16px;
+  }
+
+  /* company */
+  .company__content {
+    display: block;
+    width: 100%;
+  }
+
+  .company__text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .company__text__inner {
+    padding: 50px 20px 44px;
+  }
+
+  .company .img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
 }
-
-.header .logo {
-  width: 80.5px;
-  margin: 16px 0 11.52px 16px;
-}
-
-.header ul {
-  margin-left: 16px;
-}
-
-.contact {
-  display: none;
-}
-
-/* mv */
-.mv img {
-  margin-top: 18px;
-  margin-bottom: 90px;
-}
-
-/* news */
-.news {
-  margin-bottom: 90px;
-  padding: 0 28px 0 16px;
-}
-
-.news .list {
-  flex-direction: column;
-  gap: 49px;
-}
-
-.news .list li {
-  width: 100%;
-} 
-
-.news p {
-  margin-top: 22px;
-}
-
-
-/* about */
-.about {
-  flex-direction: column;
-  margin-bottom: 0 0 94px 0;
-  gap: 0;
-}
-
-.about__img img {
-  width: 100%;
-  height: 300px;
-}
-
-.about__text {
-  width: 100%;
-  padding: 0 28px 016px;
-  margin: 0;
-}
-
-/* business */
-
-.business {
-  margin-bottom: 80px;
-}
-
-.business__content {
-  flex-direction: column;
-  padding: 0;
-}
-
-/* company */

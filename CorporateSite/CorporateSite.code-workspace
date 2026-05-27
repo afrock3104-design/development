@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "../../Codejunp/CorporateSite"
+			"path": "."
 		},
 		{
-			"path": "."
+			"path": "../ProfileSite"
 		}
 	],
 	"settings": {}
